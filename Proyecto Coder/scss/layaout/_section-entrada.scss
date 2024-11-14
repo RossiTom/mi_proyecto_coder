@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login{
+        font-style: initial;
+        font-size: 66px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+.form{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    }
+
+.Button{
+    margin-top: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 20px;
+    color: lavender;
+    margin-top: 30px;
+}
+
+@media (max-width:48rem){
+    .login{
+        font-style: initial;
+        font-size: 33px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    }
+    .footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: lavender;
+    }
+}
+
+@media (max-width:23.4375rem){
+    .login{
+        font-style: initial;
+        font-size: 30px;
+        padding-top: 50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form{
+    font-size: 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    }
+    
+    .footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: lavender;
+    }
+}

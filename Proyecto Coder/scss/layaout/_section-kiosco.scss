@@ -1,0 +1,104 @@
+.Kiosco{
+    display: flex;
+    font-size: 66px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 20px;
+    color: lavender;
+    margin-top: 30px;
+}
+
+@media (max-width:48rem){
+    .Kiosco{
+        display: flex;
+        font-size: 33px;
+        justify-content: center;
+        padding: 20px;
+    }    
+    .producto-container {
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem;
+        .card-container{
+            height: 100%;
+            width: 250px;
+            border: 1px solid black;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+            div{
+                width: 100%;
+                height: 80%;
+                overflow: visible;
+                img{
+                    width: 100%;
+                }
+            }
+            button{
+                width: 100px;
+                border-radius: 10px;
+                border-bottom: 5px;
+            }
+        }
+    .footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: lavender;
+    }
+}
+
+@media (max-width:23.4375rem){
+    .Kiosco{
+        display: flex;
+        font-size: 30px;
+        justify-content: center;
+        padding: 20px;
+    }  
+    .producto-container {
+        display: flex;
+        justify-content: center;
+        gap: 2.5rem;
+        .card-container{
+            height: 100%;
+            width: 250px;
+            border: 1px solid black;
+            border-radius: 15px;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            padding-top: 20px;
+        }
+            div{
+                width: 100%;
+                height: 80%;
+                overflow: visible;
+                img{
+                    width: 100%;
+                }
+            }
+            button{
+                width: 100px;
+                border-radius: 10px;
+                border-bottom: 5px;
+            }
+        }
+    .footer{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        font-size: 20px;
+        color: lavender;
+    }
+}

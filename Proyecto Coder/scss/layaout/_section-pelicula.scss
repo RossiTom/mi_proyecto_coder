@@ -1,0 +1,42 @@
+.pelicula {
+    display: flex;
+    justify-content: center;
+}
+
+.pelicula div h2,p {
+    margin-bottom: 90px;
+}
+.pelicula img { 
+    object-fit: contain;
+}
+
+.pelicula-main {
+    display: flex;
+}
+.pelicula-main section {
+    justify-content: center;
+    width: 80%;
+    height: 600px;
+    margin: 2px;
+    padding-left: 10%;
+    padding-top: 5%;
+}
+
+.titulo{
+    font-size: 40px;
+}
+
+.p{
+    font-size: 20px;
+    color: antiquewhite;
+    padding-right: 20px;
+}
+
+.footer{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    padding-right: 20px;
+    color: lavender;
+    margin-top: 30px;
+}
